@@ -1,0 +1,701 @@
+:root {
+  --green: #16a34a;
+  --green-dark: #15803d;
+  --green-light: #dcfce7;
+  --green-pale: #f0fdf4;
+  --slate-900: #0f172a;
+  --slate-700: #334155;
+  --slate-500: #64748b;
+  --slate-400: #94a3b8;
+  --slate-200: #e2e8f0;
+  --slate-100: #f1f5f9;
+  --white: #ffffff;
+  --bg: #f8fafc;
+  --font-display: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-seri
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-body);
+}
+
+.cabecalho {
+    
+    text-align: right;
+    margin-right: 60px; 
+    gap: 80px;
+    margin-top: -20px;
+
+}
+nav a { 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.botao_alugar {
+    background-color: var(--green);
+    padding: 10px 20px;
+    border-radius: 45px;
+}
+.botao_alugar:hover{
+    transform: scale(1.2);
+}
+
+.container{
+    background-color: #f8fafc;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+
+}
+
+.nomeSite{
+    padding-left: 200px;
+   
+}
+
+.alugar{
+    border-bottom: 20px;
+}
+.locacao{
+    color: var(--green);
+    padding-left: 130px;
+    padding-top: 190px;
+    
+    
+}
+
+.titulo{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 120px;
+    font-size: 70px;
+}
+
+.especificacoes{
+    color: var(--slate-500);
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 130px;
+   
+}
+
+.botao_bike{
+    background-color: var(--green);
+    padding: 15px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 39px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+.botao_bike:hover{
+    transform:scale(1.1);
+}
+
+
+.lista_botao {
+    display: flex;
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 20px;
+    align-items: first baseline;
+
+}
+
+.botao_secundario{
+    margin-left: 20px;
+    align-items: normal;
+}
+
+.imagem_inicio{
+    max-width: 700px; 
+    height: auto;
+    border-radius: 30px;
+    margin-left: 900px;
+    margin-top: -500px;
+}
+
+svg{
+  color: #15803d;
+
+}
+
+.bikes_disponiveis{
+    color: #000000;
+    font-size: 16px;
+    padding-left: 30px;
+
+}
+.reservas_aberta{
+    color: var(--slate-400);
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 170px;
+    padding-left: 50px;
+    margin-left: 877px;
+    margin-top: -160px;
+    position: absolute;
+    border: 1px solid var(--slate-100);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+}
+
+.img_certo {
+    max-width: 20px;
+    height: auto;
+    margin-top: -30px;
+}
+
+.logo{
+   margin-top: -20px;
+}
+
+
+.como-funciona-secao {
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color: #f8fafc; 
+  padding: 80px 40px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+
+.como-funciona-titulo {
+  color: #0b1a30;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: sans-serif;
+}
+
+
+.como-funciona-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; 
+}
+
+
+.como-funciona-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 35px 30px;
+  flex: 1;
+  min-width: 280px; 
+  max-width: 360px;
+  text-align: left;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.card-badge {
+  display: block;
+  color: #00b159; 
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+
+
+.como-funciona-card h3 {
+  color: #0b1a30;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+  font-family: sans-serif;
+}
+
+
+.como-funciona-card p {
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+.card-numero-bg {
+  position: absolute;
+  bottom: -10px;
+  right: 10px;
+  font-size: 110px;
+  font-weight: 900;
+  color: #00b159;
+  opacity: 0.06; 
+  pointer-events: none;
+  font-family: sans-serif;
+}
+
+
+.catalogo-secao {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.catalogo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.catalogo-sub {
+  color: #16a34a;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.catalogo-titulo {
+  color: #0f172a;
+  font-family: 'Outfit', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.catalogo-contador {
+  color: #64748b;
+  font-size: 14px;
+}
+
+
+.catalogo-grid {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+
+.bike-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  flex: 1;
+  min-width: 260px;
+  max-width: 282px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bike-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+
+.bike-thumb {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #f8fafc;
+}
+
+.bike-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.badge-popular { background-color: #dcfce7; color: #16a34a; }
+.badge-novo { background-color: #dcfce7; color: #16a34a; }
+.badge-indisponivel { background-color: #cbd5e1; color: #475569; }
+
+
+.bike-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.bike-categoria {
+  color: #16a34a;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.bike-info h3 {
+  color: #0f172a;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.bike-desc {
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1; 
+}
+
+
+.bike-preco-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  border-top: 1px dashed #e2e8f0;
+  padding-top: 14px;
+}
+
+.preco-label {
+  color: #94a3b8;
+  font-size: 11px;
+  display: block;
+}
+
+.preco-valor {
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Outfit', sans-serif;
+}
+
+.preco-valor span {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 400;
+}
+
+.status-disponivel::before,
+.status-texto-indisponivel::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.status-disponivel { color: #16a34a; font-size: 12px; font-weight: 500; }
+.status-disponivel::before { background-color: #16a34a; }
+
+.status-texto-indisponivel { color: #94a3b8; font-size: 12px; font-weight: 500; }
+.status-texto-indisponivel::before { background-color: #94a3b8; }
+
+.btn-alugar {
+  background-color: #16a34a;
+  color: #ffffff;
+  border: none;
+  border-radius: 24px;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.btn-alugar:hover {
+  background-color: #15803d;
+}
+
+.bike-indisponivel .bike-info * {
+  opacity: 0.7; 
+}
+
+.btn-desativado {
+  background-color: #f1f5f9;
+  color: #94a3b8;
+  cursor: not-allowed;
+}
+.btn-desativado:hover {
+  background-color: #f1f5f9;
+}
+
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f1f5f9;
+  padding: 12px 24px;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-voltar {
+  background: none;
+  border: none;
+  color: #64748b;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0f172a;
+}
+
+.logo span {
+  color: #00a86b; /* Verde da marca */
+}
+
+/* Estrutura do Conteúdo Central */
+.page-container {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.subtitulo-pagina {
+  font-size: 10px;
+  font-weight: 700;
+  color: #00a86b;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.titulo-pagina {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 32px;
+}
+
+/* Card do Produto superior */
+.card-produto {
+  background-color: #ffffff;
+  border: 1px solid #f1f5f9;
+  border-radius: 12px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.produto-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.foto-bike {
+  width: 70px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+  display: block;
+}
+
+.categoria-tag {
+  font-size: 9px;
+  font-weight: 700;
+  color: #00a86b;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+.nome-bike {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0f172a;
+  margin: 2px 0;
+}
+
+.preco-diaria {
+  font-size: 13px;
+  color: #00a86b;
+  font-weight: 500;
+}
+
+.produto-preco {
+  text-align: right;
+}
+
+.duracao {
+  font-size: 11px;
+  color: #94a3b8;
+  display: block;
+}
+
+.valor-total {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* Formulário e Inputs */
+.secao-form {
+  border: none;
+  margin-bottom: 28px;
+}
+
+.titulo-secao {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 0.8px;
+  margin-bottom: 16px;
+}
+
+.campo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.campo-metade {
+  max-width: 50%;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #334155;
+  background-color: #ffffff;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input::placeholder {
+  color: #cbd5e1;
+}
+
+input:focus {
+  border-color: #00a86b;
+}
+
+/* Grids do Endereço e Período */
+.grid-endereco {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.grid-cep { grid-column: span 1; }
+.grid-logradouro { grid-column: span 3; }
+
+.grid-periodo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Banner Verde de Total */
+.banner-totalizacao {
+  background-color: #effaf3;
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.calculo-dias {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e3a2f;
+}
+
+.subtexto-pagamento {
+  font-size: 11px;
+  color: #689f84;
+}
+
+.valor-final {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00a86b;
+}
+
+/* Botão de Confirmação */
+.btn-confirmar {
+  width: 100%;
+  background-color: #00a86b;
+  color: #ffffff;
+  border: none;
+  padding: 16px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-confirmar:hover {
+  background-color: #008f5a;
+}
+
+/* Responsividade Básica para Telas de Celular */
+@media (max-width: 600px) {
+  .grid-endereco {
+    grid-template-columns: 1fr;
+  }
+  .grid-cep, .grid-logradouro { grid-column: span 1; }
+  
+  .grid-periodo {
+    grid-template-columns: 1fr;
+  }
+  .campo-metade {
+    max-width: 100%;
+  }
+}

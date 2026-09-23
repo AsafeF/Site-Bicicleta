@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicleta</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <header class="container">
+        <div class="nomeSite">
+            <svg class="logo" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="5.5" cy="17.5" r="3.5" class="logo"/><circle cx="18.5" cy="17.5" r="3.5"/>
+                <path d="M5.5 17.5l3-8 4 3 2.5-5H19l-3.5 3.5"/>
+            </svg>
+            <h2>Pedal <span style="color: #16a34a;">Facil</span></h2>
+        </div>
+        <div>
+            <nav class="cabecalho">
+                <a href="#">Bikes</a>
+                <a href="#">Como funciona</a>
+                <a href="#" class="botao_alugar">Alugar</a>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="hero-secao">
+        <p class="locacao">Locação de bicicletas</p>
+        
+        <h1 class="titulo">Pedale com <br>
+            <span style="color: #16a34a;">liberdade</span>, <br>
+            sem complicação.</h1>
+
+        <p class="especificacoes">Alugue a bike ideal para sua aventura ou para o dia <br>
+             a dia. Frota variada, preços acessiveis e processo <br>
+              100% online</p> 
+
+        <ul class="lista_botao">
+            <li>
+                <button class="botao_bike">Ver bikes disponiveis</button>
+            </li>
+            <li>
+                <a href="#" class="botao_secundario">Como funciona?</a>
+            </li>
+        </ul>
+
+        <div>
+            <img src="./src/photo-1629056528325-f328b5f27ae7.avif" alt="" class="imagem_inicio">
+        </div>
+
+        <div class="card">
+            <div class="card-status">
+                <p class="reservas_aberta">Reservas Abertas</p>
+                <h5 class="bikes_disponiveis">Bikes disponiveis hoje</h5>
+            </div>
+        </div>
+    </main>
+    
+
+    <section class="como-funciona-secao">
+        <h2 class="como-funciona-titulo">Como funciona</h2>
+        
+        <div class="como-funciona-grid">
+            
+            <div class="como-funciona-card">
+              
+                <span class="card-badge">01</span>
+                <h3>Escolha sua bike</h3>
+                <p>Navegue pelo catálogo e selecione o modelo ideal para você.</p>
+            </div>
+
+            <div class="como-funciona-card">
+               <span class="card-badge">02</span>
+                <h3>Preencha o cadastro</h3>
+                <p>Informe seus dados, período de uso e horário de retirada.</p>
+            </div>
+
+            
+            <div class="como-funciona-card">
+                <span class="card-badge">03</span>
+                <h3>Retire e pedale!</h3>
+                <p>Venha buscar no nosso endereço e aproveite ao máximo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalogo-secao">
+  <div class="catalogo-header">
+    <div>
+      <p class="catalogo-sub">CATÁLOGO</p>
+      <h2 class="catalogo-titulo">Bikes disponíveis</h2>
+    </div>
+    <span class="catalogo-contador">3 modelos disponíveis agora</span>
+  </div>
+
+  <div class="catalogo-grid">
+    
+    <div class="bike-card">
+      <div class="bike-thumb">
+        <span class="badge badge-popular">Popular</span>
+        <img src="./src/BIKE 1.avif" alt="Mountain Bike Trek X-Cal 29">
+      </div>
+      <div class="bike-info">
+        <p class="bike-categoria">MOUNTAIN BIKE</p>
+        <h3>Trek X-Cal 29</h3>
+        <p class="bike-desc">Suspensão dianteira de 100mm, freios hidráulicos e câmbio Shimano Deore. Ideal para trilhas e terrenos irregulares.</p>
+        
+        <div class="bike-preco-status">
+          <div>
+            <span class="preco-label">A partir de</span>
+            <p class="preco-valor">R$ 45 <span>/ dia</span></p>
+          </div>
+          <span class="status-disponivel">Disponível</span>
+        </div>
+        <button class="btn-alugar">Alugue sua bike</button>
+      </div>
+    </div>
+
+    
+    <div class="bike-card">
+      <div class="bike-thumb">
+        
+        <img src="./src/BIKE 2.avif" alt="City Classic Urban">
+      </div>
+      <div class="bike-info">
+        <p class="bike-categoria">BICICLETA URBANA</p>
+        <h3>City Classic Urban</h3>
+        <p class="bike-desc">Quadro leve de alumínio, guidão ergonômico e bagageiro traseiro integrado. Perfeita para o dia a dia na cidade.</p>
+        
+        <div class="bike-preco-status">
+          <div>
+            <span class="preco-label">A partir de</span>
+            <p class="preco-valor">R$ 28 <span>/ dia</span></p>
+          </div>
+          <span class="status-disponivel">Disponível</span>
+        </div>
+        <button class="btn-alugar">Alugue sua bike</button>
+      </div>
+    </div>
+
+    <div class="bike-card">
+      <div class="bike-thumb">
+        <span class="badge badge-novo">Novo</span>
+        <img src="./src/BIKE 3.avif" alt="KBO E-Bike Breeze">
+      </div>
+      <div class="bike-info">
+        <p class="bike-categoria">ELÉTRICA</p>
+        <h3>KBO E-Bike Breeze</h3>
+        <p class="bike-desc">Motor 500W com autonomia de até 80km por carga. Pedal assistido em 5 níveis, ideal para longas distâncias sem esforço.</p>
+        
+        <div class="bike-preco-status">
+          <div>
+            <span class="preco-label">A partir de</span>
+            <p class="preco-valor">R$ 75 <span>/ dia</span></p>
+          </div>
+          <span class="status-disponivel">Disponível</span>
+        </div>
+        <button class="btn-alugar">Alugue sua bike</button>
+      </div>
+    </div>
+
+    
+    <div class="bike-card bike-indisponivel">
+      <div class="bike-thumb">
+        <span class="badge badge-indisponivel">Indisponível</span>
+        <img src="./src/BIKE 4.avif" alt="Veloz Road 700c">
+      </div>
+      <div class="bike-info">
+        <p class="bike-categoria">SPEED / ESTRADA</p>
+        <h3>Veloz Road 700c</h3>
+        <p class="bike-desc">Quadro de carbono leve, pneus 700×23c e câmbio Shimano Tiagra 20v. Para quem busca velocidade e performance.</p>
+        
+        <div class="bike-preco-status">
+          <div>
+            <span class="preco-label">A partir de</span>
+            <p class="preco-valor">R$ 60 <span>/ dia</span></p>
+          </div>
+          <span class="status-texto-indisponivel">Indisponível</span>
+        </div>
+        <button class="btn-alugar btn-desativado" disabled>Indisponível</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main class="page-container">
+    
+    <span class="subtitulo-pagina">FORMULÁRIO DE RESERVA</span>
+    <h1 class="titulo-pagina">Finalize seu aluguel</h1>
+
+    
+    <div class="card-produto">
+      <div class="produto-info">
+        <div class="container-foto-bike">
+          
+          <img src="./src/BIKE 1.avif" alt="Trek X-Cal 29" class="foto-bike">
+        </div>
+        <div>
+          <span class="categoria-tag">MOUNTAIN BIKE</span>
+          <h2 class="nome-bike">Trek X-Cal 29</h2>
+          <span class="preco-diaria">R$ 45,00 / dia</span>
+        </div>
+      </div>
+      <div class="produto-preco">
+        <span class="duracao">2 dias</span>
+        <span class="valor-total">R$ 90,00</span>
+      </div>
+    </div>
+
+    
+    <form class="formulario-reserva">
+      
+      <fieldset class="secao-form">
+        <legend class="titulo-secao">DADOS PESSOAIS</legend>
+        
+        <div class="campo-grupo">
+          <label for="nome">Nome completo *</label>
+          <input type="text" id="nome" placeholder="Ex: Maria Silva" required>
+        </div>
+
+        <div class="campo-grupo campo-metade">
+          <label for="telefone">Telefone *</label>
+          <input type="tel" id="telefone" placeholder="(11) 99999-0000" required>
+        </div>
+      </fieldset>
+
+     
+      <fieldset class="secao-form">
+        <legend class="titulo-secao">ENDEREÇO COMPLETO</legend>
+        
+        <div class="grid-endereco">
+          <div class="campo-grupo grid-cep">
+            <label for="cep">CEP *</label>
+            <input type="text" id="cep" placeholder="00000-000" required>
+          </div>
+          <div class="campo-grupo grid-logradouro">
+            <label for="logradouro">Logradouro *</label>
+            <input type="text" id="logradouro" placeholder="Rua, Avenida, etc." required>
+          </div>
+          <div class="campo-grupo">
+            <label for="numero">Número *</label>
+            <input type="text" id="numero" placeholder="123" required>
+          </div>
+          <div class="campo-grupo">
+            <label for="bairro">Bairro *</label>
+            <input type="text" id="bairro" placeholder="Nome do bairro" required>
+          </div>
+          <div class="campo-grupo">
+            <label for="cidade">Cidade *</label>
+            <input type="text" id="cidade" placeholder="São Paulo" required>
+          </div>
+          <div class="campo-grupo">
+            <label for="uf">UF *</label>
+            <input type="text" id="uf" placeholder="SP" required>
+          </div>
+        </div>
+      </fieldset>
+
+      
+      <fieldset class="secao-form">
+        <legend class="titulo-secao">PERÍODO DO EMPRÉSTIMO</legend>
+        
+        <div class="grid-periodo">
+          <div class="campo-grupo">
+            <label for="data-retirada">Data de retirada *</label>
+            <input type="date" id="data-retirada" required>
+          </div>
+          <div class="campo-grupo">
+            <label for="horario-retirada">Horário de retirada *</label>
+            <input type="time" id="horario-retirada" required>
+          </div>
+          <div class="campo-grupo">
+            <label for="data-devolucao">Data de devolução *</label>
+            <input type="date" id="data-devolucao" required>
+          </div>
+        </div>
+      </fieldset>
+
+      
+      <div class="banner-totalizacao">
+        <div class="valores-detalhe">
+          <p class="calculo-dias">2 dias × R$ 45,00</p>
+          <span class="subtexto-pagamento">Pagamento na retirada</span>
+        </div>
+        <div class="valor-final">R$ 90,00</div>
+      </div>
+
+      <button type="submit" class="btn-confirmar">Confirmar reserva</button>
+
+    </form>
+  </main>
+    
+</body>
+</html>
